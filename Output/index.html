@@ -9,17 +9,14 @@
   </head>
   <body>
     <div align="center" class="container">
-      <form id="search" class="form">
+      <form id="search" onsubmit="return false" class="form">
         <input id="txt" type="text" placeholder="Search" autocomplete="true">
         <button id="btn" type="submit" class="btn"><i id="mag" class="material-icons">&#xE8B6;</i></button>
       </form>
       <div><br><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><i id="rand" class="material-icons">&#xEB40;</i></a></div>
     </div>
     <div>
-      <ul id="list">
-        <li>hELLO</li>
-        <li>goodbye</li>
-      </ul>
+      <ul id="list"></ul>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
