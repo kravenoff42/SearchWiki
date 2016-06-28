@@ -5,6 +5,14 @@ html, body
 .container
   margin-top: 100px
   background-color: #bfb
+  color: #0a0
+
+#listDiv
+  color: #0a0
+  width: 50vw
+  min-width: 300px
+  transform: translate(-11px)
+  text-align: left
 
 #txt
   color: #0a0
@@ -15,7 +23,7 @@ html, body
   font-size: 12pt
   margin: 3px
   padding: 7.5px
-
+  width: 250px
 
 #txt:focus
   outline: none
@@ -40,6 +48,10 @@ html, body
 #btn:click
   outline: none
 
+form
+  position: center
+  padding-left: 30px
+
 a, a:hover
   color: #0a0
   font-weight: bolder
@@ -52,12 +64,15 @@ li
   list-style: none
   color: #0a0
   padding: 10px 30px
-  margin: 10px
+  margin: 15px
   background: #fff
+  box-shadow: 0 4px 10px -2px #0a0
 
 li:hover
   background: #dfd
-  transition: background .5s
+  box-shadow: 0 14px 20px -7px #0a0
+  transform: translateY(-10px)
+  transition: all .4s ease-in-out
 
 #rand
   color: #0a0
@@ -67,22 +82,6 @@ li:hover
   margin-top: 3px
   margin-bottom: -3px
   font-size: 20pt
-
--webkit-input-placeholder
-  text-align: center
-  color: #0a0
-
--moz-placeholder /* Firefox 18- */
-  text-align: center
-  color: #0a0
-
--moz-placeholder  /* Firefox 19+ */
-  text-align: center
-  color: #0a0
-
--ms-input-placeholder
-  text-align: center
-  color: #0a0
 
 .searchmatch
   font-weight: bold
